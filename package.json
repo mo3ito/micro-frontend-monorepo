@@ -1,0 +1,23 @@
+{
+  "name": "micro-frontend-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel --recursive --if-present dev",
+    "dev:shell": "pnpm --filter shell dev",
+    "dev:products": "pnpm --filter products dev",
+    "dev:cart": "pnpm --filter cart dev",
+    "dev:auth": "pnpm --filter auth dev",
+    "build": "pnpm --recursive --if-present build",
+    "build:shell": "pnpm --filter shell build",
+    "build:products": "pnpm --filter products build",
+    "build:cart": "pnpm --filter cart build",
+    "build:auth": "pnpm --filter auth build",
+    "preview": "pnpm --parallel --recursive --if-present preview",
+    "preview:shell": "pnpm --filter shell preview",
+    "preview:products": "pnpm --filter products preview",
+    "preview:cart": "pnpm --filter cart preview",
+    "preview:auth": "pnpm --filter auth preview",
+    "lint": "pnpm --recursive --if-present lint"
+  }
+}

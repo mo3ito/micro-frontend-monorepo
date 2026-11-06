@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"/home/mo3ito/.nvm/versions/node/v22.14.0/bin/node /home/mo3ito/Mo3ito/programs/react.js/micro-frontend/products/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/bin/tsc --project /home/mo3ito/Mo3ito/programs/react.js/micro-frontend/products/node_modules/.federation/tsconfig.05a97c97105c9f3743a162f2db74d314.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "/home/mo3ito/.nvm/versions/node/v22.14.0/bin/node /home/mo3ito/Mo3ito/programs/react.js/micro-frontend/products/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/bin/tsc --project /home/mo3ito/Mo3ito/programs/react.js/micro-frontend/products/node_modules/.federation/tsconfig.05a97c97105c9f3743a162f2db74d314.json"
+    },
+    "timestamp": 1793969589543
+  }
+}
